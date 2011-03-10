@@ -1,156 +1,50 @@
-html, body { height: 100%; }
-
-body
-{
-  font-family: Tahoma;
-	background-color: white;
-}
-
-#wrap{
-  min-height: 100%;
-  background-color: white;
-	font-size: 15px;
-	background-image: url("img/bottom_shadow.png");
-	background-repeat: repeat-x;
-  background-position: center bottom;
-}
-
-.container
-{
-	width: 922px;
-	margin: 0px auto;
-}
-
-.clear{
-  width: 100%;
-  clear: both;
-  height: 0px;
-}
-
-#top_background{
-  background: url("img/top_pattern.png") repeat-x;
-}
-
-#top{
-	height: 169px;
-	background: url("img/header.png") top left no-repeat;
-}
-
-#header{
-  padding: 12px 0 0 25px;
-  width: 250px; text-align: center;
-}
-
-#header .name{
-	font-size: 24px;
-	color: #caec72;
-}
-
-#header .adress{
-  font-size: 12px;
-	color: white;
-}
-#logo{
-  width: 120px;
-  height: 80px;
-  background-image: url("img/tea.png");
-  float: right;
-  position: absolute;
-  top: 0px;
-  margin-left: 300px;
-}
-#menu{
-	width: 100%;
-	height: 32px;
-	margin-top: 78px;
-	padding-left: 19px;
-}
-
-
-#menu a{
-	height: 32px;
-	line-height: 32px;
-	width: 123px;
-	background: url("img/menu.png") top left no-repeat;
-	background-position: -123px 0;
-	float: left;
-	margin-left: 3px;
-	text-decoration: none;
-	color: #1e1e1d;
-	font-size: 12px;
-	text-align: center;
-}
-
-#top #menu a:hover, 
-#top #menu a.active{
-	background-position: 0px 0;
-	text-decoration: underline;
-}
-
-#middle{
-	background: url("img/top_shadow.png") top left no-repeat;
-	font-size: 12px;
-	line-height: 18px;
-}
-
-#content{
-  padding: 10px 28px 0 28px;
-}
-
-
-#footer{
-  bottom: 0px;
-  clear: both;
-  height: 56px;
-  position: relative;
-	background-image: url("img/bottom_pattern.gif");
-	background-repeat: repeat-x;
-  width: 100%;
-  margin: -56px auto 0 auto;  
-}
-
-#bottom{
-  height: 56px;
-  font-size: 12px;
-	background: url("img/bak_18.png") no-repeat;
-}
-
-#bottom_left{
-	float: left;
-	padding-left: 28px;
-	padding-top: 8px;
-}
-
-#bottom_right{
-  float: right;
-  text-align: right;
-  padding-right: 28px;
-  padding-top: 8px;
-}
-.part img{
-float: left;
-}
-.part li{
-  background: url('img/arrow.gif') no-repeat left 3px;
-  list-style-type: none;
-  padding-left: 24px;
-  line-height: 22px;
-}
-.part h2{
-  color: #2c2c27;
-  font-size: 24px;
+@font-face {
+  font-family: 'Square 721';
+  font-style: normal;
   font-weight: normal;
-  text-decoration: underline;
+  src: url('fonts/Sqr721n.ttf') format('truetype');
 }
-.part a{
-color: #5e8705;
+@font-face {
+  font-family: 'Bahama';
+  src: url('fonts/BAHAMASB.TTF') format('truetype');
 }
+@font-face {
+  font-family: 'My Verdana';
+  src: url('fonts/verdana.ttf') format('truetype');
+}
+h3{
+  text-transform:uppercase ;
+  font-family: 'Bahama';
+  font-size: 24px;
+  color: white;
+  text-shadow: 0 0 0.2em black;
+}
+body {margin:0; padding:0; background:url(images/body_bgr.jpg); font-family: 'My Verdana';}
+.container{width: 706px; clear: both;padding: 0 30px;}
+p{font-size: 12px;}
+a{color: #DC4800;}
+#header{background:url(images/bgr_top.jpg) top left no-repeat; height:353px;}
+#sidebar{width: 240px; float: left;}
+#logo{height: 151px;}
+#content{background:url(images/w_bgr.jpg) top left no-repeat; height: 346px;}
+#content-left{width:244px;float: left;}
+#content-right{width:457px; background:url(images/b_bgr.gif) top left repeat-y; height:100%;float: left;}
+#content-right p{margin-left: 30px;}
+/*###*/
+/*###*/
+.menu li a {display:block;text-decoration:none;width:204px;height:25px;font-family: "Square 721";color: black;font-size: 18px;}
+.menu li a:hover {text-decoration:none;text-shadow: 0 0 0.2em #7a4b00}
 
-#bottom a {
-color: #2c2c27;
-}
-.bottom_image{
-  position: absolute;
-  margin-left: 820px;
-  bottom: 52px;
-}
+.menu li.m1 a {background:url(images/m1.jpg) no-repeat;}
+.menu li.m2 a {background:url(images/m2.jpg) no-repeat;}
+.menu li.m3 a {background:url(images/m3.jpg) no-repeat;}
+.menu li.m4 a {background:url(images/m4.jpg) no-repeat;}
+.menu li.m5 a {background:url(images/m5.jpg) no-repeat;}
+.menu li.m6 a {background:url(images/m6.jpg) no-repeat;}
+/*###*/
+
+#image{float: left;width:466px; background:url(images/photo0.jpg) top left no-repeat; height:348px;}
+#footer{background:url(images/end_line) top left no-repeat;height: 50px;}
+#footer #footer_delimiter{float: left;background:url(images/ee.jpg) top right no-repeat; width: 259px;height: 100%;}
+#footer #footer_content{float: left;width: 437px;padding: 5px 0 0 10px;}
+/*###*/

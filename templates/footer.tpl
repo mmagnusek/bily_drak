@@ -1,21 +1,16 @@
-    						<div class="clear"></div>
-    				  </div>
-    			  </div>
-    	    </div>
-    	  </div>
-      </div>
-    </div>
-    <div id="footer">
-		  <div id="bottom" class="container">
-		    <img src="img/bottom_image_{rand(1,5)}.png" class="bottom_image" />
-		    <div id="bottom_left">
-				  <strong>Čajovna u Bílého draka</strong><br/>
-				  <span>www.cajovnahronov.cz</span>
-				</div>
-				<div id="bottom_right">
-          <span><a href="http://www.sunlight.cz">E-shop design by Sunlight webdesign</a></span>
-        </div>
-      </div>
-    </div>
-	</body>
+				  </div>
+				  <!--footer-->
+				  <div id="footer" class="container">
+				    <div id="footer_delimiter">
+				    </div>
+				    <div id="footer_content">
+				      <p>Copyright 2011 &copy; Čajovna u Bílého draka.<br>
+  						<a href="#">Terms of use </a> &nbsp;|&nbsp;  <a href="index-7.html">Privacy Policy</a></p>
+				    </div>	  
+  				</div>
+        </td>
+			<td style="width:50%; background:url(images/rez_2.jpg) top right repeat-x; height:100%;"><img  alt="" src="images/spacer.gif" width="1" height="1"></td>
+		</tr>
+	</table>
+</body>
 </html>
