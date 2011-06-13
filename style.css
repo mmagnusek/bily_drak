@@ -19,20 +19,29 @@ h3{
   color: white;
   text-shadow: 0 0 0.2em black;
 }
+h4{
+  text-transform:uppercase ;
+  font-family: 'Bahama';
+  font-size: 20px;
+  color: white;
+  text-shadow: 0 0 0.2em black;
+}
+.clear{width: 100%; height: 0px; clear: both;}
 body {margin:0; padding:0; background:url(images/body_bgr.jpg); font-family: 'My Verdana';}
 .container{width: 706px; clear: both;padding: 0 30px;}
 p{font-size: 12px;}
 a{color: #DC4800;}
 #header{background:url(images/bgr_top.jpg) top left no-repeat; height:353px;}
 #sidebar{width: 240px; float: left;}
-#logo{height: 151px;}
-#content{background:url(images/w_bgr.jpg) top left no-repeat; height: 346px;}
+#logo{height: 151px;background: url(images/drak.png) no-repeat;margin-left: 20px;}
+#content{background:url(images/w_bgr.jpg) top left no-repeat; min-height: 346px;}
 #content-left{width:244px;float: left;}
 #content-right{width:457px; background:url(images/b_bgr.gif) top left repeat-y; height:100%;float: left;}
 #content-right p{margin-left: 30px;}
 /*###*/
 /*###*/
 .menu li a {display:block;text-decoration:none;width:204px;height:25px;font-family: "Square 721";color: black;font-size: 18px;}
+.menu li a.active {font-weight: bold;}
 .menu li a:hover {text-decoration:none;text-shadow: 0 0 0.2em #7a4b00}
 
 .menu li.m1 a {background:url(images/m1.jpg) no-repeat;}
@@ -48,3 +57,41 @@ a{color: #DC4800;}
 #footer #footer_delimiter{float: left;background:url(images/ee.jpg) top right no-repeat; width: 259px;height: 100%;}
 #footer #footer_content{float: left;width: 437px;padding: 5px 0 0 10px;}
 /*###*/
+
+#gallery a {
+  display: block;
+  text-align: center;
+  width: 170px;
+  height: 100px;
+  padding: 10px 0px;
+  float: left;
+}
+
+#gallery img {
+  border: 1px solid #ffd59e;
+	-moz-box-shadow: 0px 0px 4px #000;
+	-webkit-box-shadow: 0px 0px 4px #000;
+	box-shadow: 0px 0px 4px #000;
+}
+
+#product_menu li{
+  display: inline;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+#product_menu li.current{
+  color: #e3e3e3;
+}
+#products img{
+  float: left;
+  margin-right: 20px;
+  width: 120px;
+  height: 100px;
+}
+#products li{
+  min-height: 100px;
+  clear: both;
+  padding: 10px 0;
+  border-bottom: 1px solid brown;
+}

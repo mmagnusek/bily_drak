@@ -1,27 +1,27 @@
-<?php /*%%SmartyHeaderCode:2462620154d62d2cf707a63-08899575%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:13423028604df604e8a9e192-38694627%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '1eac20332c728e42b16e1ba210242ed430e57370' => 
     array (
       0 => './templates/aktuality.tpl',
-      1 => 1298315932,
+      1 => 1300398650,
       2 => 'file',
     ),
     '97c13ae6868bbc459509c9f1b968154acd23eecc' => 
     array (
       0 => './templates/header.tpl',
-      1 => 1299794455,
+      1 => 1308001532,
       2 => 'file',
     ),
     '3a4f6f0d327fc7bc3ea86f63906a1bf934ca50c7' => 
     array (
       0 => './templates/footer.tpl',
-      1 => 1299794498,
+      1 => 1300399141,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2462620154d62d2cf707a63-08899575',
+  'nocache_hash' => '13423028604df604e8a9e192-38694627',
   'has_nocache_code' => false,
   'cache_lifetime' => 120,
 )); /*/%%SmartyHeaderCode%%*/?>
@@ -46,7 +46,7 @@ $_smarty_tpl->decodeProperties(array (
 						<div id="sidebar">
 						  <div id="logo"></div>
 							<ul class="menu">
-								<li class="m1"><a class="" href="index.php">O čajovně</a></li>
+								<li class="m1"><a class="" href="/">O čajovně</a></li>
 								<li class="m2"><a class="" href="nase_nabidka.php">Naše nabídka</a></li>
 								<li class="m3"><a class="" href="kde_nas_najdete.php">Kde nás najdete</a></li>
 								<li class="m4"><a class="" href="jak_to_u_nas_vypada.php">Jak to u nás vypadá</a></li>
@@ -58,8 +58,8 @@ $_smarty_tpl->decodeProperties(array (
 						<!--top_foto-->
 					</div>
 					<div id="content" class="container">
-
-
+<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2F%25C4%258Cajovna-U-B%25C3%25ADl%25C3%25A9ho-draka%2F171895902852817&amp;width=700&amp;colorscheme=light&amp;show_faces=false&amp;stream=true&amp;header=false&amp;height=395" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:700px; height:395px; background-color: #EB8500;" allowTransparency="true"></iframe>
+				    <div class="clear"></div>
 				  </div>
 				  <!--footer-->
 				  <div id="footer" class="container">

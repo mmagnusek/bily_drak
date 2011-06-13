@@ -19,10 +19,10 @@
 						<div id="sidebar">
 						  <div id="logo"></div>
 							<ul class="menu">
-								<li class="m1"><a class="{if $page == 'index'}active{/if}" href="index.php">O čajovně</a></li>
+								<li class="m1"><a class="{if $page == 'index'}active{/if}" href="/">O čajovně</a></li>
 								<li class="m2"><a class="{if $page == 'nase_nabidka'}active{/if}" href="nase_nabidka.php">Naše nabídka</a></li>
 								<li class="m3"><a class="{if $page == 'kde_nas_najdete'}active{/if}" href="kde_nas_najdete.php">Kde nás najdete</a></li>
-								<li class="m4"><a class="{if $page == 'jak_to_nas_vypada'}active{/if}" href="jak_to_u_nas_vypada.php">Jak to u nás vypadá</a></li>
+								<li class="m4"><a class="{if $page == 'jak_to_u_nas_vypada'}active{/if}" href="jak_to_u_nas_vypada.php">Jak to u nás vypadá</a></li>
 								<li class="m5"><a class="{if $page == 'aktuality'}active{/if}" href="aktuality.php">Aktuality</a></li>
 								<li class="m6"><a class="{if $page == 'vase_dotazy'}active{/if}" href="vase_dotazy.php">Vaše dotazy</a></li>
 							</ul>
