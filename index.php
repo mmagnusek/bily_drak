@@ -10,6 +10,15 @@ $smarty->caching = false;
 $smarty->cache_lifetime = 120;
 
 
+$myFile = "special_offer.txt";
+$lines = file($myFile);
+
+foreach ($lines as $line_num => $line) {
+  $special_offer .= $line."<br/>";
+}
+$smarty->assign('special_offer', $special_offer);
+
+
 $smarty->assign('page', 'index');
 $smarty->assign('title', 'Úvodní stránka');
 // $smarty->assign('image_number', );

@@ -27,6 +27,8 @@ h4{
   text-shadow: 0 0 0.2em black;
 }
 .clear{width: 100%; height: 0px; clear: both;}
+.small{font-size: 70%;}
+.white{color: white;}
 body {margin:0; padding:0; background:url(images/body_bgr.jpg); font-family: 'My Verdana';}
 .container{width: 706px; clear: both;padding: 0 30px;}
 p{font-size: 12px;}
@@ -53,9 +55,11 @@ a{color: #DC4800;}
 /*###*/
 
 #image{float: left;width:466px; background:url(images/photo0.jpg) top left no-repeat; height:348px;}
-#footer{background:url(images/end_line) top left no-repeat;height: 50px;}
+#footer{background:url(images/end_line.jpg) top left no-repeat;height: 50px;}
 #footer #footer_delimiter{float: left;background:url(images/ee.jpg) top right no-repeat; width: 259px;height: 100%;}
-#footer #footer_content{float: left;width: 437px;padding: 5px 0 0 10px;}
+#footer #footer_content{float: left;width: 444px;padding: 5px 0 0 3px;}
+#footer #footer_content #gplus{width: 100px; float: left;}
+#footer #footer_content p{color: white;text-shadow: 1px 1px 1px #663f00; margin-top: 3px;}
 /*###*/
 
 #gallery a {
@@ -94,4 +98,27 @@ a{color: #DC4800;}
   clear: both;
   padding: 10px 0;
   border-bottom: 1px solid brown;
+}
+
+ul#contact{
+  float: right;
+}
+a.fb{
+  font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+  line-height: 20px;
+  font-size: 11px;
+  color: white;
+  text-decoration: none;
+  display: inline;
+  padding-left: 22px;
+  margin: 5px;
+  float: right;
+  width: 36px;
+  height: 20px;
+  text-align: left;
+  background-image: url('images/fb_share.png');
+  text-shadow: #005580 -0.1px 1px 1px;
+}
+a.fb:hover{
+  text-shadow: black -0.1px 1px 1px;
 }

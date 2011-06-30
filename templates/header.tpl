@@ -9,6 +9,21 @@
   <title>Čajovna u Bílého Draka - {$title}</title>
   <link rel="stylesheet" type="text/css" href="reset.css" />
   <link rel="stylesheet" type="text/css" href="style.css" />
+  <!-- Place this tag in your head or just before your close body tag -->
+  <script type="text/javascript" src="https://apis.google.com/js/plusone.js" />
+  <script type="text/javascript">
+
+   var _gaq = _gaq || [];
+   _gaq.push(['_setAccount', 'UA-24261928-1']);
+   _gaq.push(['_trackPageview']);
+
+   (function() {
+     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+   })();
+
+  </script>
 </head>
 <body>
   <table  style="width:100%;">
@@ -19,7 +34,7 @@
 						<div id="sidebar">
 						  <div id="logo"></div>
 							<ul class="menu">
-								<li class="m1"><a class="{if $page == 'index'}active{/if}" href="/">O čajovně</a></li>
+								<li class="m1"><a class="{if $page == 'index'}active{/if}" href="index.php">O čajovně</a></li>
 								<li class="m2"><a class="{if $page == 'nase_nabidka'}active{/if}" href="nase_nabidka.php">Naše nabídka</a></li>
 								<li class="m3"><a class="{if $page == 'kde_nas_najdete'}active{/if}" href="kde_nas_najdete.php">Kde nás najdete</a></li>
 								<li class="m4"><a class="{if $page == 'jak_to_u_nas_vypada'}active{/if}" href="jak_to_u_nas_vypada.php">Jak to u nás vypadá</a></li>

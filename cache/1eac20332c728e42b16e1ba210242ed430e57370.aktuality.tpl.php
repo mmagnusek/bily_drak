@@ -11,13 +11,13 @@ $_smarty_tpl->decodeProperties(array (
     '97c13ae6868bbc459509c9f1b968154acd23eecc' => 
     array (
       0 => './templates/header.tpl',
-      1 => 1308001532,
+      1 => 1309377875,
       2 => 'file',
     ),
     '3a4f6f0d327fc7bc3ea86f63906a1bf934ca50c7' => 
     array (
       0 => './templates/footer.tpl',
-      1 => 1300399141,
+      1 => 1309378697,
       2 => 'file',
     ),
   ),
@@ -36,6 +36,21 @@ $_smarty_tpl->decodeProperties(array (
   <title>Čajovna u Bílého Draka - Aktuality</title>
   <link rel="stylesheet" type="text/css" href="reset.css" />
   <link rel="stylesheet" type="text/css" href="style.css" />
+  <!-- Place this tag in your head or just before your close body tag -->
+  <script type="text/javascript" src="https://apis.google.com/js/plusone.js" />
+  <script type="text/javascript">
+
+   var _gaq = _gaq || [];
+   _gaq.push(['_setAccount', 'UA-24261928-1']);
+   _gaq.push(['_trackPageview']);
+
+   (function() {
+     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+   })();
+
+  </script>
 </head>
 <body>
   <table  style="width:100%;">
@@ -46,7 +61,7 @@ $_smarty_tpl->decodeProperties(array (
 						<div id="sidebar">
 						  <div id="logo"></div>
 							<ul class="menu">
-								<li class="m1"><a class="" href="/">O čajovně</a></li>
+								<li class="m1"><a class="" href="index.php">O čajovně</a></li>
 								<li class="m2"><a class="" href="nase_nabidka.php">Naše nabídka</a></li>
 								<li class="m3"><a class="" href="kde_nas_najdete.php">Kde nás najdete</a></li>
 								<li class="m4"><a class="" href="jak_to_u_nas_vypada.php">Jak to u nás vypadá</a></li>
@@ -64,10 +79,16 @@ $_smarty_tpl->decodeProperties(array (
 				  <!--footer-->
 				  <div id="footer" class="container">
 				    <div id="footer_delimiter">
+				      <img src="images/wifi.png" width="70"/>
+				      <img src="images/foursquare.png"/>
+				      <a href="https://www.facebook.com/sharer.php?display=dialog&amp;locale=cs_CZ&amp;u=http%3A%2F%2Fwww.fstore.cz" class="fb share">Sdílet</a>
 				    </div>
 				    <div id="footer_content">
-				      <p>Copyright 2011 &copy; Čajovna u Bílého draka.<br>
-  						<a href="#">Terms of use </a> &nbsp;|&nbsp;  <a href="index-7.html">Privacy Policy</a></p>
+			        <!-- Place this tag where you want the +1 button to render -->
+			        <div id="gplus">
+                <g:plusone size="medium" href="www.fstore.cz"></g:plusone>
+              </div>
+				      <p>Copyright 2011 &copy; Čajovna u Bílého draka.</p>
 				    </div>	  
   				</div>
         </td>

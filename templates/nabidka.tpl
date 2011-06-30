@@ -1,10 +1,10 @@
 {include file="header.tpl"}
 <h3>Naše nabídka</h3>
 <ul id="product_menu">
-  <li class="white_tea" onclick="change_products('white_tea'); return false;">Bílé čaje</li> |
   <li class="green_japan_tea" onclick="change_products('green_japan_tea'); return false;">Zelené japonské čaje</li> |
   <li class="green_chinesse_tea" onclick="change_products('green_chinesse_tea'); return false;">Zelené čínské čaje</li> |
-  <li class="green_vietnam_tea" onclick="change_products('green_vietnam_tea'); return false;">Zelené vietnamské čaje</li> |
+  <li class="green_vietnam_tea" onclick="change_products('green_vietnam_tea'); return false;">Zelené vietnamské čaje</li><br />
+  <li class="white_tea" onclick="change_products('white_tea'); return false;">Bílé čaje</li> |
   <li class="yellow_green_tea" onclick="change_products('yellow_green_tea'); return false;">Žlutozelené čaje (Oolongy)</li> |
   <li class="black_tea" onclick="change_products('black_tea'); return false;">Černé čaje</li> |
   <li class="dark_tea" onclick="change_products('dark_tea'); return false;">Tmavé čaje</li> |
