@@ -12,6 +12,8 @@ $smarty->cache_lifetime = 120;
 
 $smarty->assign('page', 'nase_nabidka');
 $smarty->assign('title', 'Naše nabídka');
+$smarty->assign('description', '');
+$smarty->assign('keywords', '');
 $smarty->display('nabidka.tpl');
 
 ?>

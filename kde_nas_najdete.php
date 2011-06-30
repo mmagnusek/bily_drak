@@ -12,6 +12,8 @@ $smarty->cache_lifetime = 120;
 
 $smarty->assign('page', 'kde_nas_najdete');
 $smarty->assign('title', 'Kde nás najdete');
+$smarty->assign('description', '');
+$smarty->assign('keywords', '');
 $smarty->display('kontakt.tpl');
 
 ?>

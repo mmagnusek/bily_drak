@@ -12,6 +12,8 @@ $smarty->cache_lifetime = 120;
 
 $smarty->assign('page', 'jak_to_u_nas_vypada');
 $smarty->assign('title', 'Jak to u nás vypadá');
+$smarty->assign('description', '');
+$smarty->assign('keywords', '');
 $smarty->display('gallery.tpl');
 
 ?>

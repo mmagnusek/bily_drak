@@ -21,7 +21,8 @@ $smarty->assign('special_offer', $special_offer);
 
 $smarty->assign('page', 'index');
 $smarty->assign('title', 'Úvodní stránka');
-// $smarty->assign('image_number', );
+$smarty->assign('description', '');
+$smarty->assign('keywords', '');
 $smarty->display('index.tpl');
 
 ?>

@@ -12,6 +12,8 @@ $smarty->cache_lifetime = 120;
 
 $smarty->assign('page', 'vase_dotazy');
 $smarty->assign('title', 'Vaše dotazy');
+$smarty->assign('description', '');
+$smarty->assign('keywords', '');
 $smarty->display('dotazy.tpl');
 
 ?>

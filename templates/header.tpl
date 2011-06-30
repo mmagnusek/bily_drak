@@ -4,8 +4,8 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta http-equiv="Content-language" content="cs" />
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<meta name="description" content="" />
-  <meta name="keywords" content="" />
+	<meta name="description" content="{$description}" />
+  <meta name="keywords" content="{$keywords}" />
   <title>Čajovna u Bílého Draka - {$title}</title>
   <link rel="stylesheet" type="text/css" href="reset.css" />
   <link rel="stylesheet" type="text/css" href="style.css" />

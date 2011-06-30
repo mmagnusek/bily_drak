@@ -12,6 +12,8 @@ $smarty->cache_lifetime = 120;
 
 $smarty->assign('page', 'aktuality');
 $smarty->assign('title', 'Aktuality');
+$smarty->assign('description', '');
+$smarty->assign('keywords', '');
 $smarty->display('aktuality.tpl');
 
 ?>
