@@ -20,7 +20,16 @@
 		<tr>
 			<td>
 			  <h3 style="margin-left: 30px;">Plánované akce</h3>
-        
+				<table style="margin-left: 30px;" id="events">
+					<tbody>
+		        {foreach from=$events item=event}
+							<tr>
+								<td class="date">{$event['start']}</td>
+								<td>{$event['name']}</td>
+							</tr>
+						{/foreach}
+					</tbody>
+				</table>
       </td>
 		</tr>
 	</table>

@@ -6,6 +6,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="description" content="{$description}" />
   <meta name="keywords" content="{$keywords}" />
+	<meta property=og:image content="http://www.bilydrak.cz/images/drak.png"/>
   <title>Čajovna u Bílého Draka - {$title}</title>
   <link rel="stylesheet" type="text/css" href="reset.css" />
   <link rel="stylesheet" type="text/css" href="style.css" />
@@ -24,25 +25,31 @@
    })();
 
   </script>
+	<!--[if lte IE 6]>
+	<script type="text/javascript" src="supersleight-min.js"></script>
+	<![endif]-->
 </head>
 <body>
-  <table  style="width:100%;">
+	<table style="width: 100%;">
 		<tr>
-			<td style="width:50%; background:url(images/rez_1.jpg) top right repeat-x; height:100%;"><img  alt="" src="images/spacer.gif" width="1" height="1"></td>
-			<td style="width:766px;">
-			  <div id="header" class="container">
-						<div id="sidebar">
-						  <div id="logo"></div>
-							<ul class="menu">
-								<li class="m1"><a class="{if $page == 'index'}active{/if}" href="index.php">O čajovně</a></li>
-								<li class="m2"><a class="{if $page == 'nase_nabidka'}active{/if}" href="nase_nabidka.php">Naše nabídka</a></li>
-								<li class="m3"><a class="{if $page == 'kde_nas_najdete'}active{/if}" href="kde_nas_najdete.php">Kde nás najdete</a></li>
-								<li class="m4"><a class="{if $page == 'jak_to_u_nas_vypada'}active{/if}" href="jak_to_u_nas_vypada.php">Jak to u nás vypadá</a></li>
-								<li class="m5"><a class="{if $page == 'aktuality'}active{/if}" href="aktuality.php">Aktuality</a></li>
-								<li class="m6"><a class="{if $page == 'vase_dotazy'}active{/if}" href="vase_dotazy.php">Vaše dotazy</a></li>
-							</ul>
-					  </div>
-            <div id="image"></div>
-						<!--top_foto-->
+			<td style="background: url(images/rez_1.jpg) repeat-x;">&nbsp;</td>
+			<td style="width: 706px;" id="page">
+				<div id="header" class="container">
+					<div id="sidebar">
+						<div id="logo">
+							<img src="images/drak.png" alt="Čajovna u Bílého draka" title="Čajovna u Bílého draka">
+						</div>
+						<ul class="menu">
+							<li class="m1"><a class="{if $page == 'index'}active{/if}" href="index.php">O čajovně</a></li>
+							<li class="m2"><a class="{if $page == 'nase_nabidka'}active{/if}" href="nase_nabidka.php">Naše nabídka</a></li>
+							<li class="m3"><a class="{if $page == 'kde_nas_najdete'}active{/if}" href="kde_nas_najdete.php">Kde nás najdete</a></li>
+							<li class="m4"><a class="{if $page == 'jak_to_u_nas_vypada'}active{/if}" href="jak_to_u_nas_vypada.php">Jak to u nás vypadá</a></li>
+							<li class="m5"><a class="{if $page == 'aktuality'}active{/if}" href="aktuality.php">Aktuality</a></li>
+							<li class="m6"><a class="{if $page == 'vase_dotazy'}active{/if}" href="vase_dotazy.php">Vaše dotazy</a></li>
+						</ul>
 					</div>
-					<div id="content" class="container">
+					<div id="image">
+						<img src="images/photo0.jpg" alt="Čajovna u Bílého draka" title="Čajovna u Bílého draka">
+					</div>
+				</div>
+				<div id="content" class="container">
