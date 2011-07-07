@@ -11,8 +11,8 @@ $smarty->cache_lifetime = 120;
 
 
 $smarty->assign('page', 'nase_nabidka');
-$smarty->assign('title', 'Naše nabídka');
-$smarty->assign('description', '');
+$smarty->assign('title', 'Aktuální nabídka čajů');
+$smarty->assign('description', 'Na této stránce naleznete aktuální nabídku čajů, vodních dýmek a dalších pochutin v Čajovně u Bílého draka.');
 $smarty->assign('keywords', '');
 $smarty->display('nabidka.tpl');
 
