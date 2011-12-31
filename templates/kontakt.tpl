@@ -8,7 +8,7 @@
   <br />
   <li><h4>TEL.: 774 699 701</h4></li>
   <br />
-  <li><h4>MAIL.: <a class="small white" href="mailto:ubilehodraka@seznam.cz">ubilehodraka@seznam.cz</a></h4></li>
+  <li><h4>MAIL.: <a class="small white" href="mailto:info@bilydrak.cz">info@bilydrak.cz</a></h4></li>
 
 	<br />
 	<li class="open"><h4>Pondělí</h4><span>zavřeno</span></li>
