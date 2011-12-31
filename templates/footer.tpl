@@ -10,9 +10,10 @@
 					<div id="footer_content">
 						<!-- Place this tag where you want the +1 button to render -->
 						<div id="gplus">
-							<g:plusone size="medium" href="www.bilydrak.cz"></g:plusone>
+							<g:plusone size="medium" href="http://www.bilydrak.cz"></g:plusone>
 						</div>
 						<p>Copyright 2011 &copy; Čajovna u Bílého draka.</p>
+						<p class="center">Online Marketing od <a href="http://www.fstore.cz">FStore</a></p>
 					</div>
 				</div>
 			</td>

@@ -53,6 +53,7 @@ h4{
 .clear{width: 100%; height: 0px; clear: both;}
 .small{font-size: 70%;}
 .white{color: white;}
+.center{text-align: center;}
 body {margin:0; padding:0; background:url(images/body_bgr.jpg); font-family: 'My Verdana';}
 p{font-size: 12px;}
 a{color: #DC4800;}
